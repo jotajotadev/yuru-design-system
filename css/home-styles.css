@@ -1,0 +1,125 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    max-width: 796px;
+}
+
+.display-text {
+    background: linear-gradient(90deg, #148EFF 0%, #810FB6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buttons-hero {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-24);
+}
+
+.wrap-card-benefits {
+    max-width: 1204px;
+    display: flex;
+    gap: 20px;
+}
+
+.card-benefit {
+    width: 100%;
+    box-shadow: 0 0 0 1px var(--primary-700);
+    border-radius: var(--space-8);
+}
+.main-home {
+    max-width: 1204px;
+}
+.wrap-card-guidelines {
+    display: flex;
+    gap: 20px;
+}
+
+.wrap-card-guidelines img {
+    display: block;
+    width: 100%;
+    border-radius: var(--space-8);
+}
+
+.wrap-card-guidelines > * {
+    width: 100%;
+}
+
+.coming-soon img {
+    max-width: 286px;
+    width: 100%;
+    border-radius: var(--space-8);
+}
+
+.coming-soon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 796px;
+}
+
+.wrap-form-input i {
+    position: absolute;
+    padding: 16px;
+    color: var(--neutral-50);
+}
+
+.wrap-form-input {
+    width: 100%;
+}
+
+
+input[type="email"] {
+    padding: 16px;
+    padding-left: var(--space-48);
+    background-color: var(--primary-900);
+    outline: none;
+    box-shadow: none;
+    border: 2px solid var(--neutral-50);
+    border-radius: var(--space-8);
+    width: 100%;
+    font-family: Poppins, sans-serif;
+    color: var(--neutral-200);
+}
+
+.form-coming-soon {
+    display: flex;
+    align-items: center;
+    gap: var(--space-16);
+}
+
+/* .new-releases {
+    max-width: 1204px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.card-new-release {
+    width: 388px;
+}
+
+.card-new-release img {
+    width: 100%;
+    display: block;
+    border: 1px solid var(--primary-700);
+    border-radius: var(--space-8);
+    margin-bottom: var(--space-16);
+}
+
+.wrap-card-new-release {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.wrap-image-new-realease {
+    position: relative;
+}
+.footer {
+    text-align: center;
+    border-top: 1px solid var(--primary-700);
+}

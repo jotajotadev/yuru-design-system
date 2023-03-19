@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Yuru design system">
+    <meta name="keywords" content="design system, 2023, diseñador ui, perú">
+    <meta name="author" content="José Flores Fernández">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography</title>
+    <link rel="stylesheet" href="./css/custom-styles.css">
+    <link rel="icon" href="./assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base-styles.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/prism.css">
+</head>
+<body>
+    <header class="header-documentation">
+        <div class="left-content">
+            <a href="./index.html">
+                <img src="./assets/logo-new.svg" alt="logo">
+            </a>
+            <a href="https://discord.gg/UKxtMuEB" target="_blank" class="link-white">Comunidad</a>
+            <a href="https://forms.gle/FbaPx2EGVeYAKCth9" target="_blank" class="link-white">Sugerencias</a>
+            <a href="./css/yuru-styles.css" target="_blank" class="link-white">Descargar</a>
+        </div>
+        <div class="wrap-form-input">
+            <i class="material-icons">search</i>
+            <input type="search" placeholder="Muy pronto podrás buscar">
+        </div>
+    </header>
+    <div class="layout-section">
+        <aside class="aside">
+            <ul class="list-aside">
+                <li class="item-aside-small">Guidelines</li>
+                <li><a href="./colors.html" class="item-aside-small">Colores</a></li>
+                <li><a href="./typography.html" class="item-aside-small select-item">Tipografía</a></li>
+                <li><a href="./space.html" class="item-aside-small">Espacio</a></li>
+            </ul>
+        </aside>
+        <section class="content-documentation">
+            <div class="wrap-content-documentation">
+                <article class="article-documentation mb-64">
+                    <h3 class="h-4-regular c-neutral-200 mb-24">Escala Tipográfica</h3>
+                    <p class="p-1-regular c-neutral-300 mb-24">La siguiente lista muestra las escala tipográfica que maneja Yuru Design System.</p>
+                    <div class="wrap-typo">
+                        <div class="row-tipo mb-24">
+                            <p class="h-1-regular c-neutral-300">h-1-regular</p>
+                            <p class="h-1-bold c-neutral-300">h-1-bold</p>
+                        </div>
+                        <div class="row-tipo mb-24">
+                            <p class="h-2-regular c-neutral-300">h-2-regular</p>
+                            <p class="h-2-bold c-neutral-300">h-2-bold</p>
+                        </div>
+                        <div class="row-tipo mb-24">
+                            <p class="h-3-regular c-neutral-300">h-3-regular</p>
+                            <p class="h-3-bold c-neutral-300">h-3-bold</p>
+                        </div>
+                        <div class="row-tipo mb-24">
+                            <p class="h-4-regular c-neutral-300">h-4-regular</p>
+                            <p class="h-4-bold c-neutral-300">h-4-bold</p>
+                        </div>
+                        <div class="row-tipo mb-24">
+                            <p class="st-1-regular c-neutral-300">st-1-regular</p>
+                            <p class="st-1-bold c-neutral-300">st-1-bold</p>
+                        </div>
+                        <div class="row-tipo mb-24">
+                            <p class="st-2-regular c-neutral-300">st-2-regular</p>
+                            <p class="st-2-bold c-neutral-300">st-2-bold</p>
+                        </div>
+                        <div class="row-tipo mb-24">
+                            <p class="p-1-regular c-neutral-300">p-1-regular</p>
+                            <p class="p-1-bold c-neutral-300">p-1-bold</p>
+                        </div>
+                        <div class="row-tipo mb-24">
+                            <p class="p-2-regular c-neutral-300">p-2-regular</p>
+                            <p class="p-2-bold c-neutral-300">p-2-bold</p>
+                        </div>
+                        <div class="row-tipo mb-24">
+                            <p class="p-3-regular c-neutral-300">p-3-regular</p>
+                            <p class="p-3-bold c-neutral-300">p-3-bold</p>
+                        </div>
+                        <div class="row-tipo">
+                            <p class="p-4-regular c-neutral-300">p-4-regular</p>
+                            <p class="p-4-bold c-neutral-300">p-4-bold</p>
+                        </div>
+                    </div>
+                </article>
+    
+                <article class="article-documentation mb-64">
+                    <h3 class="h-4-regular c-neutral-200 mb-24">¿Cómo usar nuestra escala tipográfica?</h3>
+                    <p class="p-1-regular c-neutral-300 mb-24">Para usar nuestros estilos de texto solo debes agregar el nombre de clase a la etiqueta de texto que prefieras, Ejm:</p>
+                    <pre class="code-container">
+                        <code class="language-markup">
+                            &lt;p class=&quot;p-2-regular&quot;&gt;Soy un p&aacute;rrafo&lt;/p&gt;
+                        </code>
+                    </pre>
+                    <p class="p-1-regular c-neutral-300 mb-24 mt-24">También podrás combinar otras clases como colores </p>
+                    <pre class="code-container">
+                        <code class="language-markup">
+                            &lt;p class=&quot;p-2-regular c-neutral-800&quot;&gt;Formato de texto y color&lt;/p&gt;
+                        </code>
+                    </pre>
+                </article>
+            </div>
+        </section>
+    </div>
+    <script src="./js/prism.js"></script>
+</body>
+</html>

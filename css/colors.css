@@ -1,0 +1,24 @@
+.color-item {
+    height: 32px;
+}
+
+.wrap-set-colors {
+    display: flex;
+    gap: 20px;
+}
+.color-group {
+    width: 100%;
+    flex-grow: 1;
+
+}
+.color-list {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.row-item-color {
+    display: flex;
+    gap: 20px;
+}
+.row-item-color > * {
+    flex-grow: 1;
+}

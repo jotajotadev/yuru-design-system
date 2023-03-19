@@ -1,0 +1,7 @@
+.row-tipo {
+    display: flex;
+}
+
+.row-tipo > * {
+    width: 100%;
+}
